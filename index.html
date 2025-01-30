@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scroll</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+
+</head>
+<body>
+
+    <section class="top">
+        <img src="images/frieren4.png" alt="frieren" id="bg">
+        <img src="images/frieren3.png" alt="frieren" id="mountain">
+        <img src="images/frieren2.png" alt="frieren" id="mid">
+        <img src="images/frieren1.png" alt="frieren" id="front">
+        <h2 id="text">INDONADS MEETUP</h2>
+    </section>
+    
+    <section class="bottom">
+        <div class="left">INTO THE NIGHT : Dinner & Games</div>
+        <div class="right">
+            Indonads adalah komunitas yang lahir dari ekosistem Monad dengan tujuan merangkul dan menghubungkan para anggota Monad di Indonesia. 
+            Kami berfokus pada pengembangan minat dan antusiasme individu yang tertarik dengan dunia Web3, menciptakan lingkungan yang mendukung inovasi dan kolaborasi.
+            <br> <br>
+            Adapun diadakannya Meetup Indonads yaitu untuk mempererat hubungan antar anggota komunitas serta menjadi wadah bagi siapa saja yang ingin lebih berkontribusi dalam perkembangan Monad. 
+            Acara ini juga bertujuan untuk memberikan wawasan lebih dalam mengenai teknologi Monad, sekaligus membuka peluang bagi para peserta untuk terlibat lebih aktif dalam ekosistem Web3.
+       </div>
+    </section>
+    <section class="bottom-mid">
+        <div class="left">
+            Keterangan lokasi, waktu dan sebagainya sebagai berikut :
+            <p>Waktu        : 18:00 PM</p>
+            <p>Lokasi       : kafeblabla</p>
+            <p>Dresscode    : bebas</p>
+        </div>
+        <div class="right">
+            <img src="images/kafe.jpeg" alt="Kafe" class="cafe-image">
+        </div>
+    </section>
+    <section class="schedule">
+            <h1>The Timeline</h1>
+            <div class="carousel">
+                <div class="list">
+                    <div class="item active" 
+                    style="
+                    --img-src: url('images/akane.jpg');
+                    --bg-color: #b96352;
+                    --title: 'Akane'
+                    ">
+                        <div class="content">
+                            <div class="image"></div>
+                            <div class="info">
+                                <div class="name">
+                                    Akane Sakuramori
+                                </div>
+                                <div class="title">
+                                    Class no Daikirai
+                                </div>
+                                <div class="des">
+                                    Outspoken, fiercely independent, and sharp-witted. Akane is known for her strong opinions and tendency to express disdain openly, earning her a reputation as someone who isn’t afraid to voice when she dislikes something—or someone.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" 
+                    style="
+                    --img-src: url('images/shisei.jpg');
+                    --bg-color: #7287b2;
+                    --title: 'Shisei'
+                    ">
+                        <div class="content">
+                            <div class="image"></div>
+                            <div class="info">
+                                <div class="name">
+                                    Shisei Houjou
+                                </div>
+                                <div class="title">
+                                    Class no Daikirai
+                                </div>
+                                <div class="des">
+                                    Quiet and enigmatic, Shisei is the loner of the class, often misunderstood by their peers. While others perceive Shisei as cold and unapproachable, this demeanor stems from shyness and a fear of being vulnerable. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" 
+                    style="
+                    --img-src: url('images/himari.jpg');
+                    --bg-color: #d5917c;
+                    --title: 'Himari'
+                    ">
+                        <div class="content">
+                            <div class="image"></div>
+                            <div class="info">
+                                <div class="name">
+                                    Himari Ishikura
+                                </div>
+                                <div class="title">
+                                    Class no Daikirai
+                                </div>
+                                <div class="des">
+                                    Himari is a bright, cheerful, and seemingly perfect individual on the surface, but she is the target of resentment in her class. Known for her radiant smile and kind demeanor, she excels in academics, sports, and social settings.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+    </section>
+    <section class="footer">
+        <div class="footer-content">
+            <p>RSVP : siomay.eth</p>
+            <p>PAX : Rp.200,000</p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    
+</body>
+</html>
